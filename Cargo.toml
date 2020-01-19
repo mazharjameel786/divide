@@ -1,0 +1,13 @@
+[package]
+name = "divide"
+version = "0.1.0"
+authors = ["mazharjameel786 <mazhar.jameel786@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/mazharjameel786/divide.git"
+homepage = "https://github.com/mazharjameel786/divide.git"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = "Divide Library "
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
