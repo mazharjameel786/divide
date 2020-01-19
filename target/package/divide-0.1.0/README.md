@@ -8,7 +8,7 @@ to use this library you have to add following line in dependency section of carg
 your cargo.toml file should look like this:
 ```
 [package]
-name = "divide"
+name = "assignment_7_q3_lib"
 version = "0.1.0"
 authors = ["mazhar_jamil"]
 edition = "2018"
@@ -20,17 +20,17 @@ divide = "0.1.1"
 In `src/main.rs` you can use like this:
 
 ```
-use divide::arithmetic::division;
+use assignment_7_q3_lib::arithmetic::division;
 fn main() {
     println!("Hello, world!");
     division::division_res(20.0,4.0);
 }
 ```
 
-use divide::arithmetic::division::division_res;
+use assignment_7_q3_lib::arithmetic::division::division_res;
 
 ```
-
+use firstwelcome::hello;
 fn main() {
     println!("Hello, world!");
     division_res(20.0,4.0);
